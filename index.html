@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fast Food Ninja Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="bordertop"></div>
+	<div class="borderbottom"></div>
+	<div class="gameover">
+		<h1></h1>
+		<p></p>
+		<div id="playAgain"><button class="playButton">Exit</button></div>	
+	</div>	
+	<div class="container">
+	 	<div class="foodContainer"></div>
+	 	<div class="title"><p>FAST FOOD NINJA</p><p><img src="img/ninja.png"></p></div>
+		<div class="scoreText">Score: <span class="score">0</span></div>
+		<div class="timeText">Time: <span class="time">30</span></div>
+		<div id="play"><button class="playButton">Play</button></div>		
+		
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<audio controls preload="auto" id="beep-one">
+	<source src="audio/explosion.mp3" controls></source>
+	Your browser isn't invited for super fun audio time.
+</audio>
+</body>
+</html>
